@@ -27,7 +27,6 @@ class SmartWasteDisposalWindow(QMainWindow):
         main_layout.addWidget(smart_container_groupbox, 1, 0, 1, 1)
 
 
-
     def create_button_groupbox(self):
         buttons_groupbox = QGroupBox("Operator Buttons")
         buttons_layout = QHBoxLayout()
